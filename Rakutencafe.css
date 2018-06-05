@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+body {
+   margin: 0;
+   padding: 0;
+   color: #333;
+   font-size: 14px;
+}
+a {
+   color: #333;
+}
+
+a:visited {
+   color: #333;
+}
+a:hover {
+   color: #333;
+   font-weight: 700;
+   text-decoration: none;
+}
+
+#global_navi {
+   margin-bottom: 16px;
+}
+#global_navi ul {
+   font-size: 0;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#global_navi ul li {
+   font-size: 25px;
+   display: inline-block;
+   width: 200px;
+   text-align: center;
+}
+#global_navi ul li a {
+   display: block;
+   padding: 10px 16px;
+   background-color: #bf0000;
+   font-size: 10px;
+   color: #fff;
+   text-decoration: none;
+   transition: background-color .2s linear;
+}
+
+#global_navi ul li.current a {
+   background-color: lightcoral;
+}
+#global_navi ul li a:hover {
+   background-color: lightcoral;
+}
+
+
+
+header {
+   width: 1000px;
+   margin: 0 auto;
+}
+header h1 {
+   text-align: center;
+   font-size: 50px;
+   margin: 10px;
+   border-style: none;
+}
+
+#wrapper{
+ width: 1200px;
+ margin: 0 auto;
+ 
+}
+
+#main_visual {
+    width: 70%;
+    margin:  auto;
+    text-align: center
+    
+    
+}
+
+#main {
+    width: 900px;
+    float: left;
+    text-align: center;
+}
+
+.cafemenu {
+    text-align: center;
+
+}
+
+
+
+.wifi {
+    text-align: center;
+}
+
+}
+.payment {
+    text-align: center
+}
+
+#main h1:after {
+position: absolute;
+content: '';
+top: 100%;
+left: 30px;
+border: 15px solid transparent;
+border-top: 15px solid #bf0000;
+width: 0;
+height: 0;
+}
+
+
+
+.clearfix::after {
+   content: '';
+   display: block;
+   clear: both;
+}
+
+
+
+
+#side_banner  {
+float: right; 
+width: 300px;
+text-align: center;
+}
+
+#side_banner {
+   float: right;
+}
+
+
+
+#sidebar ul {
+list-style-type: none;
+}
+
+
+footer
+{ text-align: center;}
+
+
+.sweets { width: 400px;
+}
+
+.IT {
+    width: 400px;
+}
+
+.point {
+    width: 400px;
+}
+
+
+
+.information{
+    width: 250px;
+    float: right;
+}
+
+
+.newmenu{
+    width: 250px;
+    float: right;
+}
+
+
+.fcb{
+    width: 250px;
+    float: right;
+}
+

@@ -1,0 +1,1 @@
+SELECT * FROM books INNER JOIN chapters ON books.id = chapters.book_id;

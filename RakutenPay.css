@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+body {
+   margin: 0;
+   padding: 0;
+   color: #333;
+   font-size: 14px;
+}
+a {
+   color: #333;
+}
+
+a:visited {
+   color: #333;
+}
+a:hover {
+   color: #333;
+   font-weight: 700;
+   text-decoration: none;
+}
+
+
+
+
+#sidebar  {
+float: right; 
+width: 300px;
+
+}
+
+#side_banner {
+   float: right;
+}
+
+
+Yuto Komatsu [2:06 PM]
+@charset "UTF-8";
+body {
+   margin: 0;
+   padding: 0;
+   color: #333;
+   font-size: 14px;
+}
+a {
+   color: #333;
+}
+a:visited {
+   color: #333;
+}
+
+a:hover {
+   color: #333;
+   font-weight: 700;
+   text-decoration: none;
+}
+
+#menu {
+   margin-bottom: 16px;
+}
+#menu ul {
+   font-size: 0;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#menu ul li {
+   font-size: 25px;
+   display: inline-block;
+   width: 249px;
+   margin-right: 1px;
+   text-align: center;
+}
+#menu ul li a {
+   display: block;
+   padding: 10px 16px;
+   background-color: crimson;
+   color: #fff;
+   text-decoration: none;
+   transition: background-color .2s linear;
+}
+
+#menu ul li.current a {
+   background-color: lightcoral;
+}
+#menu ul li a:hover {
+   background-color: lightcoral;
+}
+header {
+   width: 1000px;
+   margin: 0 auto;
+}
+header h1 {
+   text-align: center;
+   font-size: 50px;
+   margin: 10px;
+   border-style: none;
+}
+
+
+haruka.saiga [2:24 PM]
+<!DOCTYPE html>
+<html lang="ja">
+   <head>
+       <meta charset="utf-8">
+       <title>楽天ペイ</title>
+       <link rel="stylesheet" "">
+       <link rel="stylesheet" href="pay.css">
+   </head>
+   <body>
+       <header>
+          <img src="viber image2.jpg" alt=""></a>
+      <div id="wrapper" class="clearfix">
+          <nav id="menu">
+              <ul>
+                  <li><a href="https://pay.rakuten.co.jp/detail/?l-id=header_nav_top">特徴</a></li>
+                  <li><a href="https://pay.rakuten.co.jp/guide/?scid=wi_pay_checkout_header_nav">使い方</a></li>
+                  <li><a href="https://checkout.rakuten.co.jp/shopping">キャンペーン</a></li>
+                  <li><a href="https://pay.rakuten.co.jp/shop/?scid=wi_pay_checkout_header_nav">使えるお店</a></li>
+              </ul>
+          </nav>
+      </header>
+     
+       <div id="wrapper">
+           
+               <div id="main2">
+               
+                   <h1>楽天ペイはコード決済No.1</h1>
+                   <p>楽天ペイはQRコード決済で３つのNo.1評価をお客様からいただいています。</p>
+               
+                   <div class="maru size_normal pink1">
+                   <h2>利用者数</h2>
+                   <div class="letter3">No.1</div>
+                   </div>
+                   
+                   <div class="maru size_normal pink1">
+                   <h2>総合満足度</h2>
+                   <div class="letter3">No.1</div>
+                   </div>
+                   
+                   <div class="maru size_normal pink1">
+                   <h2> ポイントが貯まりやすい決済アプリ</h2>
+                   <div class="letter3">No.1</div>
+                   </div>
+                       
+                   <h6>※QRコード決済利用実態調査、有効回答＝1,200、インターネット調査、調査主体:楽天、調査実施機関:インテージ</h6>
+               </div>
+       
+       
+         <aside id="sidebar">
+             <section id="side_banner">
+                 <h2>エントリー</h2>
+               
+                         <a href="https://grp01.id.rakuten.co.jp/rms/nid/login?service_id=i13&return_url=apply%2Fsbc05012018&spk=9c1c66" target="_blank"><img src="viber image.jpg" alt=""></a>
+                       
+                         <p>今ならもれなく1000ptプレゼント</p>
+
+             </section>
+           
+           
+     　　　　 <ul id= side_option>
+
+        　　　　　<li><a href="https://checkout.rakuten.co.jp/faq/">よくある質問</a></li>
+       　　　<li><a href="https://checkout.rakuten.co.jp/info/">ニュース</a></li>
+        　　　　　<li><a href="https://my.checkout.rakuten.co.jp/mych/" target="_blank" class="ic_blank">利用履歴</a></li>
+      　　　　　　</ul>
+
+          <section id = "side_url">
+                   
+                      <a href="#" target="_blank"><img src= https://pay.rakuten.co.jp/pay/img/detail/qr/r-pay-qr-code.png  alt= "qrcode1"></a> <br>
+                      <a href="#" target="_blank"><img src="https://pay.rakuten.co.jp/pay/img/buttons/download_apple-store.svg" alt="iphone"></a><br><br><br>
+                      <a href="#" target="_blank"><img src="https://pay.rakuten.co.jp/pay/img/detail/qr/r-pay-qr-code.png" alt="qrcode2"></a><br>
+                      <a href="#" target="_blank"><img src="https://pay.rakuten.co.jp/pay/img/buttons/download_google-play.svg" alt="google play"></a>
+          </section>
+      </aside>
+     
+      </div>
+     
+       <footer>
+       </footer>
+   </body>
+</html>
+
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 14px;
+}
+a {
+  color: #333;
+}
+a:visited {
+  color: #333;
+}
+
+a:hover {
+  color: #333;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#menu {
+  margin-bottom: 16px;
+}
+#menu ul {
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu ul li {
+  font-size: 25px;
+  display: inline-block;
+  width: 249px;
+  margin-right: 1px;
+  text-align: center;
+}
+#menu ul li a {
+  display: block;
+  padding: 10px 16px;
+  background-color: crimson;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color .2s linear;
+}
+
+#menu ul li.current a {
+  background-color: lightcoral;
+}
+#menu ul li a:hover {
+  background-color: lightcoral;
+}
+header {
+  width: 1000px;
+  margin: 0 auto;
+}
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  border-style: none;
+}
+
+
+#wrapper{
+ width: 1000px;
+ margin: 0 auto;
+}
+
+#main2{
+   width: 700px;
+   margin: 0 auto;
+   float: left;
+}
+
+#main2 h1 {
+   position: relative;
+ padding: 0.6em;
+ background: crimson;
+ color: #FFFFFF;
+}
+
+#main h1:after {
+position: absolute;
+content: '';
+top: 100%;
+left: 30px;
+border: 15px solid transparent;
+border-top: 15px solid #bf0000;
+width: 0;
+height: 0;
+}
+
+#main2 ul li {
+   display: inline-block;
+}
+
+.maru {
+ display: inline-flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ flex-flow: column;
+ vertical-align: top;
+}
+/* 円の大きさ */
+.size_normal{
+ width: 210px;
+ height: 210px;
+}
+/* 文字の大きさ */
+.letter3 {
+ font-size: 2em;
+ line-height: 1.5em;
+}
+
+
+/* 円と文字の色 */
+.pink1 {
+ background-color: #F6CECE;
+ border: 4px solid #F6CECE;
+ color: white;
+}
+
+#main2 h6{
+ text-align: center;
+}
+
+#sidebar  {
+float: right; 
+width: 300px;
+
+}
+
+#side_banner {
+  float: right;
+}
+
+.clearfix::after {
+   content: '';
+   display: block;
+   clear: both;
+}
+.rakuten {
+    width: 1000px;
+}
+
+footer
+{ text-align: center;}
