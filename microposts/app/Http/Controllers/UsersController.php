@@ -11,7 +11,7 @@ class UsersController extends Controller
     public function index()
     {
         $users = User::paginate(10);
-        $user = User::find($id);
+      
         
         return view('users.index', [
             'users' => $users,
@@ -32,5 +32,34 @@ class UsersController extends Controller
         $data += $this->counts($user);
 
         return view('users.show', $data);
+    }
+        public function followings($id)
+    {
+        $user = User::find($id);
+        $followings = $user->followings()->paginate(10);
+
+        $data = [
+            'user' => $user,
+            'users' => $followings,
+        ];
+
+        $data += $this->counts($user);
+
+        return view('users.followings', $data);
+    }
+
+    public function followers($id)
+    {
+        $user = User::find($id);
+        $followers = $user->followers()->paginate(10);
+
+        $data = [
+            'user' => $user,
+            'users' => $followers,
+        ];
+
+        $data += $this->counts($user);
+
+        return view('users.followers', $data);
     }
 }
